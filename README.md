@@ -22,3 +22,27 @@ Topics covered:
 
 ## **YOUTUBE VIDEO LINK - ** https://youtu.be/71MW5WeHdz8?si=D0_ywfQ3YlN5l5Bp
 
+
+# Instructions
+
+* Create a virtual environment using
+  ```
+  uv init 
+  ```
+  ```
+  uv venv .venv
+  ```
+activate the virtual environment
+
+* Install dotenv with 
+```
+uv add dotenv
+```
+
+chromadb is our vector store
+* Install the following: 
+```
+uv add langchain_openai langchain_core langchain_community chromadb
+```
+
+* To create requirements.txt run  uv pip freeze > requirements.txt
